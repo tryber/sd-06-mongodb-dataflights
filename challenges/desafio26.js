@@ -1,1 +1,6 @@
-db.voos.find({ ano: { $gte: 2017, $lte: 2018 } }).count();
+db.voos.deleteMany({
+  $and: [
+    { "empresa.nome": "GOL" },
+    { "passageiros.pagos": { $gte: 5, $lte: 10 } },
+  ],
+});
