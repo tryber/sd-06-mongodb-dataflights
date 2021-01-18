@@ -112,7 +112,7 @@
 }
 {
 	"_id" : ObjectId("5e53b45ead9912102038c961"),
-	"vooId" : 744457,
+	"vooId" : 744 457,
 	"empresa" : {
 		"sigla" : "AZU",
 		"nome" : "AZUL",
