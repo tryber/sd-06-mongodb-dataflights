@@ -89,9 +89,9 @@ Nesse projeto você vai elaborar _queries_ em `mongo` para:
 ### ANTES DE COMEÇAR A DESENVOLVER
 
 1. Clone o repositório
-  * `git clone https://github.com/tryber/sd-0x-project-mongodb-dataflights.git`.
+  * `git clone https://github.com/tryber/sd-06-mongodb-dataflights.git`.
   * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-0x-project-mongodb-dataflights`
+    * `cd sd-06-mongodb-dataflights`
 
 2. Crie uma branch a partir da branch `master`
   * Verifique que você está na branch `master`
@@ -121,13 +121,13 @@ Nesse projeto você vai elaborar _queries_ em `mongo` para:
   * Usando o exemplo anterior: `git push -u origin seunome-mongodb-dataflights`
 
 6. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-0x-project-mongodb-dataflights/pulls)
+  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-06-mongodb-dataflights/pulls)
   * Clique no botão verde _"New pull request"_
   * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
   * Clique no botão verde _"Create pull request"_
   * Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
   * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-project-mongodb-dataflights/pulls) e confira que o seu _Pull Request_ está criado
+  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-06-mongodb-dataflights/pulls) e confira que o seu _Pull Request_ está criado
 
 ---
 
@@ -241,9 +241,9 @@ Dentro dos arquivos `desafioX.js`, **crie uma query** ou mais (se necessário), 
 
 #### 11 - Retorne a quantidade de documentos em que o campo `aeroportoDestino.pais` não seja igual a `ESTADOS UNIDOS`.
 
-#### 12 - Retorne os documentos em que o campo `aeroportoDestino.pais` seja igual a `BRASIL`, `ARGENTINA` ou `CHILE`.
+#### 12 - Retorne a quantidade de documentos em que o campo `aeroportoDestino.pais` seja igual a `BRASIL`, `ARGENTINA` ou `CHILE`.
 
-#### 13 - Retorne os documentos em que o campo `aeroportoDestino.continente` não seja igual a `EUROPA`, `ÁSIA` e `OCEANIA`.
+#### 13 - Retorne a quantidade de documentos em que o campo `aeroportoDestino.continente` não seja igual a `EUROPA`, `ÁSIA` e `OCEANIA`.
 
 #### 14 - Retorne o total de voos em que o país de origem não seja `BRASIL`.
 
