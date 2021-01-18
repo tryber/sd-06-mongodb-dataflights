@@ -4,4 +4,4 @@ db.voos.find({
     { "aeroportoDestino.continente": "ÁSIA" },
     { "aeroportoDestino.continente": "OCEANIA" },
   ],
-});
+}).count();
