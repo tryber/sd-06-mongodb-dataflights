@@ -1,1 +1,1 @@
-db.voos.find({"vooID" : "756807"})
+db.voos.find({ vooId: 743233 });
