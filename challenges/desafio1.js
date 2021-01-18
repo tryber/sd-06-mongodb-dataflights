@@ -1,1 +1,1 @@
-// Iniciando PR
+db.voos.count();
