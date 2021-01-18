@@ -5,4 +5,6 @@ const myQuery = db.voos.find({
   ],
 }).count();
 
-db.resumoVoo1.insertOne({ empresa: "PASSAREDO", totalVoosDomesticos: myQuery });
+db.resumoVoos.insertOne({ empresa: "PASSAREDO", totalVoosDomesticos: myQuery });
+
+db.resumoVoos.find();
