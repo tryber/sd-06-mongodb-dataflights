@@ -1,1 +1,1 @@
-db.voos.find({ ano: { $gte: 2017, $lte: 2018 } }).count();
+db.voos.findOne({ rtk: { $exists: false } }, { vooId: 1, _id: 0 });

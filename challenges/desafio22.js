@@ -1,1 +1,7 @@
-db.voos.find({ ano: { $gte: 2017, $lte: 2018 } }).count();
+db.voos.findOne({
+  and: [
+    { "empresa.nome": { $in: ["DELTA AIRLINES", "AMERICAN AIRLINES"] } },
+    { "aeroportoOrigem.sigla": "SBGR" },
+    { "aeroportoDestino.sigla": "KJFK" },
+  ],
+}, { vooId: 1, _id: 0 });
