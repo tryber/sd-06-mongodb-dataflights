@@ -1,6 +1,7 @@
 db.voos.find(
   { ano: 2017, "empresa.nome": "GOL" },
   {
+    _id: 0,
     "empresa.nome": 1,
     "aeroportoOrigem.nome": 1,
     "aeroportoDestino.nome": 1,
