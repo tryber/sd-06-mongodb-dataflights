@@ -91,7 +91,7 @@ Nesse projeto você vai elaborar _queries_ em `mongo` para:
 1. Clone o repositório
   * `git clone https://github.com/tryber/sd-06-mongodb-dataflights.git`.
   * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-06x-mongodb-dataflights`
+    * `cd sd-06-mongodb-dataflights`
 
 2. Crie uma branch a partir da branch `master`
   * Verifique que você está na branch `master`
