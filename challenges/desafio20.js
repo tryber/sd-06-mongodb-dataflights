@@ -1,1 +1,1 @@
-db.voos.find().count();
+db.voos.findOne({ rtk: { $exists: false } }, { _id: 0, vooId: 1 });
