@@ -1,6 +1,6 @@
-db.voos.deleteMany({
+db.voos.delete({
   $and: [
     { "empresa.nome": "GOL" },
-    { "passageiros.pagos": { $in: [5, 6, 7, 8, 9, 10] } },
+    { "passageiros.pagos": { $gte: 5, $lte: 10 } },
   ],
 }).count();
