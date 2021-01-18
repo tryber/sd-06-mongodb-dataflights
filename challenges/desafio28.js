@@ -10,3 +10,7 @@
 
 // Em uma segunda query, retorne a empresa e o totalVoosDomesticos
 // do primeiro documento presente na coleção resumoVoos em que a empresa seja LATAM AIRLINES BRASIL.
+
+const qty = db.voos.count({ "empresa.nome": "LATAM AIRLINES BRASIL", natureza: "Doméstica" });
+db.resumoVoos.insertOne({ empresa: "LATAM AIRLINES BRASIL", totalVoosDomesticos: qty });
+db.resumoVoos.find({ empresa: "LATAM AIRLINES BRASIL" }, { empresa: 1, totalVoosDomesticos: 1, _id: 0 });
