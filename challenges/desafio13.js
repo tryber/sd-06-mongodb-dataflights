@@ -1,0 +1,2 @@
+// 13 - Retorne os documentos em que o campo aeroportoDestino.
+// continente não seja igual a EUROPA, ÁSIA e OCEANIA.
