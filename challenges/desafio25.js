@@ -1,1 +1,6 @@
-db.voos.find({ "empresa.nome": "AZUL" }).limit(10).pretty();
+db.voos.deleteMany(
+  {
+    "empresa.nome": "AZUL",
+    litrosCombustivel: { $lt: 400 },
+  },
+);
