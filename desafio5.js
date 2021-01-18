@@ -1,1 +1,1 @@
-db.voos({}, { vooId: 1, _id: 0 }).skip(10).limit(3);
+db.voos({}, { _id: 0, vooId: 1 }).skip(10).limit(3);
