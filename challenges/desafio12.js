@@ -1,1 +1,1 @@
-db.voos.find({ ano: { $gte: 2017, $lte: 2018 } }).count();
+db.voos.find({ "aeroportoDestino.pais": { $in: ["BRASIL", "ARGENTINA", "CHILE"] } }).count();
