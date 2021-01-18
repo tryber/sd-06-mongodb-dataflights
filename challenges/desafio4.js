@@ -1,1 +1,1 @@
-db.voos.count({ "empresa.nome": "GOL" }, { decolagens: true });
+db.voos.count({ "empresa.nome": "GOL" }).count();
