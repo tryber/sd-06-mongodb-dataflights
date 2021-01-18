@@ -1,4 +1,4 @@
-let myQuery = db.voos.find({
+const myQuery = db.voos.find({
   $and: [
     { "empresa.nome": "PASSAREDO" },
     { natureza: "Doméstica" },
