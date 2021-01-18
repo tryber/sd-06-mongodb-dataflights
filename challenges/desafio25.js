@@ -1,1 +1,1 @@
-db.voos.deleteMany({"empresa.nome": "AZUL", "litrosCombustivel": { $lte: 400 }}).count();
+db.voos.deleteMany({ "empresa.nome": "AZUL", litrosCombustivel: { $lte: 400 } }).count();
