@@ -5,4 +5,4 @@ db.resumoVoos.insertOne({
   }),
 });
 
-db.resumoVoos.find({ empresa: "LATAM AIRLINES BRASIL" }, { _Id: 0 });
+db.resumoVoos.find({ empresa: "LATAM AIRLINES BRASIL" }, { _id: 0 });
