@@ -1,4 +1,3 @@
-
 db.voos.findOne({
   "empresa.nome": {
     $in: [
