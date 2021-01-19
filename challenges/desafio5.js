@@ -1,1 +1,1 @@
-db.voos.find({ and: [{ vooId: { $gte: 10 } }, { vooId: { lte: 12 } }] });
+db.voos.find({}, { vooId: true, _id: false }).skip(9).limit(3);
