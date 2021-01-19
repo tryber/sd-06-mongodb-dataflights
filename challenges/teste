@@ -1,0 +1,4 @@
+{ $and: [{ $ne: "A" },{ $ne: "B" },{ $ne: "C" }] } 
+https://docs.mongodb.com/manual/reference/operator/query/ne/ 
+https://www.diffchecker.com/ 
+db.voos.distinct( "aeroportoDestino.pais", { "aeroportoDestino.pais": { $in: ["BRASIL", "ARGENTINA", "CHILE"] } } ); 
