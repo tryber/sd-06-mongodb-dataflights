@@ -1,4 +1,3 @@
-
 db.voos.deleteMany(
   {
     litrosCombustivel: { $exists: true, $lt: 400 },
