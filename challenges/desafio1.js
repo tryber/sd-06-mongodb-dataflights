@@ -1,1 +1,1 @@
-desafio1
+db.voos.countDocuments({});
