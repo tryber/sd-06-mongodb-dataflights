@@ -1,1 +1,1 @@
-db.voos.find({ "aeroportoDestino.continente": { $or: ["BRASIL", "ARGENTINA", "CHILE"] } }).count();
+db.voos.find({ "aeroportoDestino.continente": { $in: ["BRASIL", "ARGENTINA", "CHILE"] } }).count();
