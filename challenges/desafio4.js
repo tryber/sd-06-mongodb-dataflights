@@ -1,3 +1,3 @@
 db.voos.find({
-  "empresa.nome":"GOL" }
-).count();
+  "empresa.nome": "GOL" })
+  .count();
