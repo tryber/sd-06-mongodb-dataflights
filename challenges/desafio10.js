@@ -7,6 +7,8 @@ db.voos.find(
   },
   {
     vooId: true,
+    ano: true,
+    mes: true,
     "empresa.nome": true,
     "aeroportoOrigem.nome": true,
     "aeroportoDestino.nome": true,
