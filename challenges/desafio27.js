@@ -6,7 +6,7 @@ db.resumoVoos.insertOne(
         "empresa.nome": "PASSAREDO",
         natureza: "Doméstica",
       },
-    ),
+    ).count(),
   },
 );
 
