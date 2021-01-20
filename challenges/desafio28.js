@@ -3,7 +3,7 @@ const myQuery = db.voos.find(
 ).count();
 
 db.resumoVoos.insertOne(
-  { 
+  {
     empresa: "LATAM AIRLINES BRASIL",
     totalVoosDomesticos: myQuery,
   },
