@@ -1,1 +1,1 @@
-db.voos.find({ "aeroportoDestino.pais": { $nin: ["EUROPA", "ÁSIA", "OCEANIA"] } }).count();
+db.voos.find({ decolagens: { $gt: 20 } }).count();
