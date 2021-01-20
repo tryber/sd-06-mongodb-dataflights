@@ -4,7 +4,7 @@ db.resumoVoos.insertOne(
     totalVoosDomesticos: db.voos.find(
       {
         "empresa.nome": "PASSAREDO",
-        natureza: "DOMÉSTICA",
+        natureza: "Doméstica",
       },
     ),
   },
