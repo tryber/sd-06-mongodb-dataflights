@@ -1,1 +1,1 @@
-db.voos.find({ $and: [{ "empresa.nome": "AZUL" }, { quantity: { $lt: 400 } }] }).count();
+db.voos.find({ natureza: { $eq: "Doméstica" } }).count();
