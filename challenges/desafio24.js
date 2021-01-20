@@ -7,4 +7,4 @@ db.voos.find(
       { empresa: { $ne: "AZUL"} },
     ] },
   { vooId: true, "empresa.nome": true, litrosCombustivel: true, _id: false })
-  .limit(1);
+.limit(1);
