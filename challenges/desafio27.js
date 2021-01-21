@@ -5,4 +5,5 @@ db.resumoVoos.insertOne({
 
 db.resumoVoos.findOne(
   { empresa: "PASSAREDO" },
+  { _id: 0 },
 );
