@@ -1,0 +1,1 @@
+db.resumevoos.insert()

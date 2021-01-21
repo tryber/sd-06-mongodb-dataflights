@@ -1,4 +1,4 @@
-db.resumoVoos.insert({
+db.resumoVoos.insertOne({
   empresa: "PASSAREDO",
   totalVoosDomesticos: 4187,
 });
