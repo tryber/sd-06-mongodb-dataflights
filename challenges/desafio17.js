@@ -1,1 +1,1 @@
-db.voos.count({ natureza: "IDoméstica" });
+db.voos.count({ natureza: "Doméstica" });
