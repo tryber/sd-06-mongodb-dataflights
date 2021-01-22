@@ -1,4 +1,4 @@
-db.voos.count({ $or: 
+db.voos.count({ $or:
 [
   { "aeroportoDestino.pais": "BRASIL" },
   { "aeroportoDestino.pais": "ARGENTINA" },
