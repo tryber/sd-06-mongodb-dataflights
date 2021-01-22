@@ -1,1 +1,1 @@
-db.voos.cont({ decolagem: { $gt: 20 } });
+db.voos.cont({ decolagens: { $gt: 20 } });
