@@ -1,1 +1,1 @@
-// alteração inicial para criação do PR
+db.voos.count();
