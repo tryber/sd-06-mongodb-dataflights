@@ -1,4 +1,4 @@
-const totalVoos = db.voos.count({"empresa.nome": "LATAM AIRLINES BRASIL", natureza: "Doméstica"})
+const totalVoos = db.voos.count({ "empresa.nome": "LATAM AIRLINES BRASIL", natureza: "Doméstica" })
 
 db.resumoVoos.insert({
   empresa: "LATAM AIRLINES BRASIL",
