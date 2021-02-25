@@ -1,4 +1,4 @@
-db.voos.find({
+db.voos.findOne({
   $and: [
     { litrosCombustivel: { $exists: true } },
     { litrosCombustivel: { $lt: 600 } },
