@@ -1,4 +1,7 @@
-db.voos.find({ "empresa.nome": "GOL" }, {
+db.voos.find({ $and: [
+  { "empresa.nome": "GOL" },
+  { ano: 2017 },
+] }, {
   vooId: true,
   _id: false,
   "empresa.nome": true,
