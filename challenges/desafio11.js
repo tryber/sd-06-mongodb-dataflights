@@ -1,1 +1,1 @@
-db.voos.find({"aeroportoDestino.pais": {$not: {$regex: /ESTADOS UNIDOS/}}});
+db.voos.find({ "aeroportoDestino.pais": { $not: { $regex: /ESTADOS UNIDOS/ } } });
