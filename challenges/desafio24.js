@@ -5,7 +5,7 @@ db.voos.find({
     { $nor: [
       { "empresa.nome": { $regex: /GOL/ } },
       { "empresa.nome": { $regex: /AZUL/ } },
-    ] }
+    ] },
   ] },
 {
   vooId: true,
