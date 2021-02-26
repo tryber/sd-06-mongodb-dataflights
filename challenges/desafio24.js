@@ -10,6 +10,6 @@ db.voos.find({
 {
   vooId: true,
   "empresa.nome": true,
-  litrosCombustível: true,
+  litrosCombustivel: true,
   _id: false,
 }).limit(1);
